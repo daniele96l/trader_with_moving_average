@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 # Read the CSV file into a DataFrame
 bch_usd = pd.read_csv("BCH-USD.csv")
+
 #bch_usd = bch_usd.iloc[370:2300]
 bch_usd.reset_index(drop=True, inplace=True)
 
